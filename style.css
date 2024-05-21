@@ -1,0 +1,98 @@
+/* .container {
+  margin-top: 20px;
+}
+.textbox-container {
+  margin-bottom: 10px;
+} */
+.main {
+  width: 80%;
+  padding: 30px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  border: 2px solid red;
+}
+
+.stepOneText,
+.stepTwoText {
+  display: block;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: #d5e8d4;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 2px solid #adce9f;
+}
+.numTextboxesLeble,
+.numTextboxesTwoLebel {
+  border: 2px solid #d79b00;
+  background-color: #ffe6cc;
+  padding: 2px 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.numTextboxes,
+.numTextboxesTwo {
+  padding: 7px 2px;
+  font-size: 15px;
+}
+.addButton,
+.addButtonTwo {
+  display: block;
+  margin-left: auto;
+  margin-top: 10px;
+  padding: 8px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #0057d8;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.calculateButton,
+.calculateButtonTwo {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #ffffff;
+  color: #0057d8;
+  border: 2px solid #0057d8;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.stepOneTextBoxes,
+.stepTwoTextBoxes {
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.select-all,
+.select_all_two {
+  border: 2px solid #d79b00;
+  background-color: #ffe6cc;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.result,
+.resultTwo {
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
