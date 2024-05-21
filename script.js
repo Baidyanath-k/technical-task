@@ -92,7 +92,7 @@ document.getElementById('calculateButton').addEventListener('click', function ()
     resultDiv.innerHTML = `Output is: Selected positions: ${selectedCount} <br> Total number: ${totalSum}`;
 
     // Send the result to the server
-    fetch('http://localhost:3000/save-total-task-1', {
+    fetch('https://backend-tau-green.vercel.app/save-total-task-1', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -195,7 +195,7 @@ document.getElementById('calculateButtonTwo').addEventListener('click', function
     resultDivTwo.innerHTML = `Selected positions: ${selectedCountTwo} <br> there position: ${i} <br> Total number: ${totalSumTwo}`;
 
     // Send the result to the server
-    fetch('http://localhost:3000/save-total-task-2', {
+    fetch('https://backend-tau-green.vercel.app/save-total-task-2', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
